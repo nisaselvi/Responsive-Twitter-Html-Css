@@ -1,0 +1,295 @@
+/* for font family start*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap');
+/* end */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.container{
+    display: flex;
+    max-height: 110vh;
+    height: 810px;
+}
+
+/* left start */
+.left{
+    margin-right: 8px;
+    width: 48%;
+    background-image: url(lohp_1302x955.png);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-position: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+}
+
+.forsvg .Svg{
+    width: 100%;
+    fill: #fff;
+    stroke-width: 0.9px;
+    stroke: #fff;
+    font-family: serif;
+}
+
+/* left end */
+
+
+/* right start */
+
+.right{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding: 16px;
+}
+
+.right .rightcontainer{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.right .rightcontainer .littleX{
+    width: 45px;
+    height: 45px;
+    color:#0f1419;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1{
+    margin-top: 55px;
+    margin-bottom: 55px;
+    font-size: 70px;
+    line-height: 84px;
+    font-family: 'Poppins', sans-serif;
+    color:#0f1419;
+
+}
+
+h2{
+    font-size: 31px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 30px;
+
+}
+
+.loginG{
+    width: 300px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    border: 1px solid rgb(223, 223, 223);
+    display: flex;
+    background-color: #fff;
+    color: #0f1419;
+
+}
+
+.loginG .loginName{
+    width: 20px;
+    margin-top: 5px;
+    margin-right: 5px;
+    border-radius: 50%;
+}
+
+.loginG p{
+    font-size:12px ;
+    color: rgb(92, 92, 92);
+}
+.loginG p span{
+    font-weight: bold;
+    color: #323a42;
+}
+
+.googleLogo{
+    width: 20px;
+    margin-left: 98px;
+    margin-top: 4px;
+}
+
+.loginG:hover{
+    background-color: rgba(234, 252, 252, 0.425);
+    cursor: pointer;
+}
+
+.loginApple{
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid rgb(223, 223, 223);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: #fff;
+    color: #0f1419;
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.AppleLogo{
+    margin-right: 5px;
+    width: 20px;
+    color: #0f1419;
+
+}
+
+.loginApple:hover{
+    background-color: rgba(209, 208, 208, 0.466);
+    cursor: pointer;
+}
+
+.createAccount{
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid rgb(223, 223, 223);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: #fff;
+    background-color: rgb(29, 155, 240);
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.createAccount:hover{
+    background-color:  rgb(0, 139, 231);
+    cursor: pointer;
+}
+
+.rightcontainer span{
+    color:  rgb(29, 155, 240);
+}
+
+.rightcontainer span:hover{
+    cursor: pointer;
+    text-decoration:underline ;
+}
+
+.login{
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid rgb(223, 223, 223);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: rgb(29, 155, 240);
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.login:hover{
+    cursor: pointer;
+    background-color: #c7e5f167;
+}
+/* right end */
+
+/*footer start*/
+.downpage{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.uls{
+    width: 100%;
+}
+
+.downpage ul li a{ 
+    text-decoration: none;
+    color: rgb(92, 92, 92);
+}
+
+.downpage ul li{
+    font-size: 13px;
+    margin: 12px;
+    list-style-type:none;
+}
+
+.uls ul {
+
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.downpage ul li a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.last{
+    width: 100%;
+}
+
+.last ul{
+    display: flex;
+    justify-content: center;
+
+
+}
+/*footer end*/
+
+
+/*media start*/
+@media(max-width:1015px){
+    .container{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center; 
+    }
+    .rightcontainer{
+    }
+
+    .left{
+        width: 100%;
+    }
+    .right{
+        height: 100%;
+        margin-left: -60px;
+    }
+    .forsvg{
+        width: 30%;
+    }
+
+    .downpage{
+        flex-wrap: wrap;
+    }
+    .rightcontainer{
+        margin-top: 0px;
+    }
+    h1{
+        margin-top: 0px;
+        margin-bottom: 5px;
+        font-size: 40px;
+        line-height: 52px;
+    }
+    
+    h2{
+        font-size: 23px;  
+        margin-bottom: 10px;
+        
+    }
+
+}
